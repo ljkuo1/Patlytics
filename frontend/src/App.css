@@ -1,0 +1,65 @@
+body {
+  background-color: #f0f8f5;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  color: #2e8b57;
+}
+
+form {
+  margin: 2rem 0;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #246b45;
+}
+
+.result {
+  margin-top: 2rem;
+  text-align: left;
+  background-color: #e6f7f2;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.reports-container {
+  padding: 2rem;
+  text-align: left;
+}
+
+.report {
+  background-color: #e6f7f2;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
